@@ -1,0 +1,95 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "name": "Asphalt 9: Legends",
+      "year": 2018,
+      "platform": "Nintendo Switch",
+      "user": "jfc"
+    },
+    {
+      "id": "2",
+      "name": "AmongUs",
+      "year": 2019,
+      "platform": "Tablet",
+      "user": "jsmith"
+    },
+    {
+      "id": "3",
+      "name": "Apex Legends",
+      "year": 2019,
+      "platform": "PC",
+      "user": "jfc"
+    },
+    {
+      "id": "4",
+      "name": "The Legend of Zelda",
+      "year": 1986,
+      "platform": "PC",
+      "user": "jfc"
+    },
+    {
+      "id": "5",
+      "name": "Tetris",
+      "year": 1984,
+      "platform": "PC",
+      "user": "jsmith"
+    },
+    {
+      "id": "6",
+      "name": "Mario Kart Live: Home Circuit",
+      "year": 2020,
+      "platform": "Nintendo Switch",
+      "user": "jfc"
+    },
+    {
+      "id": "7",
+      "name": "Planet Alpha",
+      "year": 2020,
+      "platform": "Nintendo Switch",
+      "user": "jfc"
+    },
+    {
+      "id": "8",
+      "name": "Super Mario Odyssey",
+      "year": 2017,
+      "platform": "Nintendo Switch",
+      "user": "jsmith"
+    },
+    {
+      "id": "9",
+      "name": "Doom",
+      "year": 1993,
+      "platform": "PC",
+      "user": "jfc"
+    },
+    {
+      "id": "10",
+      "name": "Doom II: Hell on Hearth",
+      "year": 1994,
+      "platform": "PC",
+      "user": "jfc"
+    },
+    {
+      "id": "11",
+      "name": "Ultimate Doom",
+      "year": 1995,
+      "platform": "PC",
+      "user": "jfc"
+    },
+    {
+      "id": "12",
+      "name": "Descent",
+      "year": 1995,
+      "platform": "PC",
+      "user": "jsmith"
+    },
+    {
+      "id": "13",
+      "name": "COD",
+      "year": 2024,
+      "platform": "Steam",
+      "user": "jfc"
+    }
+  ]
+}
