@@ -5,7 +5,7 @@
       @change-page="onChangePage" />
     <GameItem 
       v-for="game in paginatedGames" 
-      :key="game.id" :game="game" :user="user" 
+      :key="game.id" :game="game" 
       @remove="removeGame" />
     <ThePagination  v-if="filteredGames.length > pageSize"
       :games="filteredGames" :pageSize="pageSize" :currentPage="currentPage"

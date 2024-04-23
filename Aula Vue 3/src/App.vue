@@ -1,7 +1,7 @@
 <template>
   <div class="grid-container">
     <header>{{ appTitle }}</header>
-    <NavBar :userName="userName" />
+    <NavBar />
     <router-view :games="games" @remove="removeGame" @add="addGame" @login="onLogin" />
     <footer>
       <p>Games Library &copy; 2024</p>

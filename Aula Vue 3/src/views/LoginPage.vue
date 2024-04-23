@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import { useSessionStore } from '../stores/userStore.js'
 export default {
     data: function () {
         return {
@@ -19,16 +20,14 @@ export default {
             password: ""
         }
     },
-    emits: ['login'],
     methods: {
         login() {
-            this.$emit('login', this.userName);
-            this.userName = "";
-            this.password = "";
+            useSessionStore().setUser(this.userName)
+            this.$router.push('/listGames')
         }
     },
     created() {
-        this.$root.userName = ""    // Clear user name when login page is loaded;
+        useSessionStore().user = ''
     }
 }   
 </script>

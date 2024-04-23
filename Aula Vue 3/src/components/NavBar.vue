@@ -22,8 +22,13 @@
 </template>
 
 <script>
+import { useSessionStore } from '../stores/userStore.js'
 export default {
-    props: ['userName']
+    computed: {
+        userName() {
+            return useSessionStore().user
+        }
+    }
 }
 </script>
 

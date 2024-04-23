@@ -14,12 +14,18 @@
 </template>
 
 <script>
+import { useSessionStore } from '../stores/userStore.js'
 export default {
-    props: ['game', 'user'],
+    props: ['game'],
     emits: ['remove'],
     methods: {
         removeGame(id) {
             this.$emit('remove', id);
+        }
+    },
+    computed: {
+        user() {
+            return useSessionStore().user
         }
     }
 }
